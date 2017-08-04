@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 // Store our app's ID and Secret. These we got from Step 1. 
 // For this tutorial, we'll keep your API credentials right here. But for an actual app, you'll want to  store them securely in environment variables. 
 var clientId = clientId;
-var clientSecret = clientSecret;
+var clientSecret = clientSecrets;
 
 // Instantiates Express and assigns our app variable to it
 var app = express();
